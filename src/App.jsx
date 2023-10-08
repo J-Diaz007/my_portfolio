@@ -2,15 +2,17 @@ import './App.css';
 
 import AboutMe from './Components/AboutMe';
 import GitHub from './Components/GitHub';
-import Nav from './Components/Nav';
+import Navbar from './Components/Navbar';
 import Projects from './Components/Projects';
 
 
 const App = () => {
   return (
     <div className="App">
-      <h1>My First solo App!!</h1>
+      <Navbar />
       <AboutMe />
+      <GitHub />
+      <Projects />
     </div>
   );
 }

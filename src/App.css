@@ -1,4 +1,13 @@
 * {
   font-family: sans-serif;
-  
+  box-sizing: border-box;
+  background: transparent;
+
+}
+
+body {
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  overflow-y: scroll;
 }
