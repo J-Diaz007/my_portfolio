@@ -1,8 +1,8 @@
 export default function AboutMe() {
     return(
-        <div className="aboutpage">
-            <h1>About Meeee Homez</h1>
+        <div className="about">
+            <h1>About page yo!</h1>
         </div>
     )
+    
 }
-

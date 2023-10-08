@@ -1,18 +1,18 @@
 import './App.css';
 
+import Home from './Components/Home';
 import AboutMe from './Components/AboutMe';
-import GitHub from './Components/GitHub';
 import Navbar from './Components/Navbar';
-import Projects from './Components/Projects';
+import Portfolio from './Components/Portfolio';
 
 
 const App = () => {
   return (
     <div className="App">
       <Navbar />
+      <Home />
       <AboutMe />
-      <GitHub />
-      <Projects />
+      <Portfolio />
     </div>
   );
 }
